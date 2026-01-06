@@ -158,19 +158,25 @@
       <section>
         <h3>Pellentesque sed nisi volutpat :</h3>
         <ul>
-          <li>Duis</li><li>auctor</li><li>Convalis</li><li>Vestibulum</li><li>Tincidunt</li>
-          <li>Sid</li><li>Aliquam</li><li>Pharetra</li><li>Ullamcorper</li><li>Felis</li>
-          <li>Vitae</li><li>Tempormetus</li><li>Imperdiet</li><li>Malesuada</li><li>Accumsan</li>
-          <li>Tempor</li><li>Fusce</li><li>SedTurpisOdio</li><li>Ante</li><li>IpsumPrimis</li>
-          <li>DuisCondimentum</li><li>Ligula</li><li>dignissim</li><li>CrasacPortt</li><li>Curabitur</li>
-          <li>Aenean</li><li>TempusTellus</li><li>Urna</li><li>egestas</li><li>feugiat</li>
-          <li>Proin</li><li>Lobortis</li><li>Tortor</li><li>Libero</li><li>Sodales</li>
-          <li>FinibusArcu</li><li>Neque</li><li>Tristique</li><li>NisiPretium</li><li>Nec</li>
-          <li>NullaFacilisi</li><li>Enim</li><li>VestibulumSed</li><li>Id</li><li>Placerat</li>
-          <li>Donecluctus</li><li>LaciniaLacinia</li><li>Lorlorpsumpsum</li><li>Dolorsitamet</li><li>Muspimerol</li>
-          <li>Propsiaculis</li><li>Venenatis</li><li>Nullaugue</li><li>Probortor</li><li>Merolod</li>
-          <li>condimentum</li><li>Quisque</li><li>Quillentes</li><li>Aliquetteuqila</li><li>Porpor</li>
-          <li>FusceEgestas</li><li>Kartineget</li><li>Acnepit</li><li>Tubitus</li>
+	  <script>
+	    let lines = ["Duis","auctor","Convalis","Vestibulum","Tincidunt",
+          "Sid","Aliquam","Pharetra","Ullamcorper","Felis",
+          "Vitae","Tempormetus","Imperdiet","Malesuada","Accumsan",
+          "Tempor","Fusce","SedTurpis Odio","Ante","IpsumPrimis",
+          "DuisCondimentum","Ligula","dignissim","CrasacPortt","Curabitur",
+          "Aenean","TempusTellus","Urna","egestas","feugiat",
+          "Proin","Lobortis","Tortor","Libero","Sodales",
+          "FinibusArcu","Neque","Tristique","NisiPretium","Nec",
+          "Nulla Facilisi","Enim","VestibulumSed","Id","Placerat",
+          "Donecluctus","LaciniaLacinia","Lorlorpsumpsum","Dolorsitamet","Muspimerol",
+          "Propsiaculis","Venenatis","Nullaugue","Probortor","Merolod",
+          "condimentum","Quisque","Quillentes","Aliquetteuqila","Porpor",
+			 "FusceEgestas","Kartineget","Acnepit","Tubitus","éternia","Éternia","àuctor","Auctor","Àuctor"];
+lines.sort((a, b) => a.localeCompare(b));
+for (let step = 0; step < lines.length; step++) {  
+    document.write("<li>" + lines[step] + "</li>");
+}
+          </script>
         </ul>
       </section>
     </div>
